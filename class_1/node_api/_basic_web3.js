@@ -19,4 +19,4 @@ const provider = new HDWalletProvider(
 );
 const web3 = new Web3(provider);
 
-export {deploy, web3, provider};
+export {web3, provider};
