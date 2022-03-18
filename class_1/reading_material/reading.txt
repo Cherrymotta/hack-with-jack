@@ -1,0 +1,8 @@
+
+
+Blockchain demo
+https://andersbrownworth.com/blockchain
+ERC20
+https://ethereum.org/en/developers/docs/standards/tokens/erc-20/
+ERC721
+https://ethereum.org/en/developers/docs/standards/tokens/erc-721/
