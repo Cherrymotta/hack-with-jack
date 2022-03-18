@@ -1,0 +1,24 @@
+{
+  "name": "class_1",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "material for hack with jack class 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.2",
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "bignumber.js": "^9.0.2",
+    "dotenv": "^16.0.0",
+    "eth-revert-reason": "^1.0.3",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.1.4",
+    "prompt-sync": "^4.2.0",
+    "solc": "^0.8.11",
+    "web3": "^1.7.0"
+  }
+}
