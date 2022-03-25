@@ -1,0 +1,21 @@
+version: '3.9'
+
+services:
+  app:
+    image: registry.gitlab.com/fruktorum/backend/meta-fighter/contracts/test
+    # build: .
+    networks: [ 'ganache-ci' ]
+    volumes: [ '.:/app' ]
+    environment:
+      # NETWORK_URL: http://ganache
+      NETWORK_URL: http://10.0.0.2
+      NETWORK_PORT: 8545
+      NETWORK_ID: 5337
+
+      DEPLOYER_ADDRESS: $DEPLOYER_ADDRESS
+      DEPLOYER_PRIVATE_KEY: $DEPLOYER_PRIVATE_KEY
+
+networks:
+  ganache-ci:
+    name: meta-fighter-ganache-ci
+    external: true

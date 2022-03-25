@@ -1,0 +1,10 @@
+/build
+/node_modules
+
+core
+Thumbs.db
+
+.DS_Store
+.env
+
+.git*
