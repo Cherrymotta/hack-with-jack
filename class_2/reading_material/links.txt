@@ -1,0 +1,2 @@
+Artigo interfaces vs. abstract classes
+https://medium.com/upstate-interactive/solidity-how-to-know-when-to-use-abstract-contracts-vs-interfaces-874cab860c56#:~:text=Abstract%20contracts%20are%20base%20contracts,cannot%20include%20any%20implemented%20functions.
